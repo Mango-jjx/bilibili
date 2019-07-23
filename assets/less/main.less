@@ -1,0 +1,200 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei",sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    font: 12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    &:focus{
+        outline: none;
+    }
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+  width: 17px;
+  height: 10px;
+  background-color: #c1c1c1;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #c1c1c1;
+}
+
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+  -webkit-appearance: none;
+}
+
+textarea { -webkit-appearance: none;}
+
+html,body{
+  width: 100%;
+  //background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+a{
+  color: #000;
+  font-family: '微软雅黑', PingHei, '宋体', Tahoma, Arial, sans-serif;
+  font-weight: normal;
+}
+.w1160{
+  width: 1160px;
+  margin: 0 auto;
+}
+.wrap{
+  width: 1200px;
+  margin: 120px auto 0 auto;
+}
+.bcfff{
+  background-color: #fff;
+}
+.cfff{
+  color: #fff;
+}
+//.c000{
+//  color: #fff;
+//}
+.fs16{
+  font-size: 16px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs12{
+  font-size: 12px;
+}
+.center{
+  text-align: center;
+}
+.pointer{
+  cursor: pointer;
+}
+.clear:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.clear{
+  clear: both;
+  zoom:1;
+}
+.back_img{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.margin{
+  margin: 0 auto;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.center_clip{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50%;
+}
+
+//播放器播放按钮
+.video-js .vjs-big-play-button{
+  //background-color: red !important;
+  top: 50% !important;
+  left:50% !important;
+  margin-left: -40px;
+  margin-top: -40px;
+  height: 80px !important;
+  width: 80px !important;
+  line-height: 80px !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+//没有数据显示
+.noData{
+  text-align: center;
+  padding: 10px 0;
+}
+
+//全局loading
+.v_shade_content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+  outline: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.2);
+}
+.v_shade_img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  transform: translate(-50%, -50%);
+}
+.v_shade_img img{
+  width: 80px;
+}
+.v_shade_block{
+  //display: none;
+}
+
+
+
+.swiper-button-next{
+  top: 40% !important;
+}
+.swiper-button-prev{
+  top: 40% !important;
+}
+
+//flex垂直居中
+.center_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
