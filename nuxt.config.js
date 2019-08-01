@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/index.png' }
     ]
   },
   /*
@@ -30,7 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/element-ui.js',
+    {src:'~plugins/element-ui', ssr: true}
   ],
   /*
   ** Nuxt.js modules

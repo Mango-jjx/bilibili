@@ -144,7 +144,7 @@ export default {};
       vertical-align: middle;
       width: 12px;
       height: 6px;
-      margin-left: 5px;
+      margin-left: 0.64px;
       margin-top: -1px;
     }
     .drop {
@@ -268,6 +268,10 @@ export default {};
         display: inline-block;
         margin: -2px 0 0 5px;
         vertical-align: middle;
+      }
+      &:hover{
+        background-color: #ccd0d7;
+        border-color: #ccd0d7;
       }
     }
   }

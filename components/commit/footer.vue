@@ -74,12 +74,17 @@
         <div class="left">
           <div class="firstpng"></div>
           <div class="secondpng"></div>
-          <div class="threepng"></div>
+          <div class="threepng">
+            <img src="../../static/483.png" alt class="three1" />
+            <img src="../../static/soft.png" alt class="three2" />
+          </div>
         </div>
         <div class="right">
           <p class="p1">
             广播电视节目制作经营许可证：（沪）字第1248号 | 网络文化经营许可证：沪网文[2016]2296-134号 | 信息网络传播视听节目许可证：0910417 | 互联网ICP备案：
-            <span class="hoverc">沪ICP备13002172号-3</span>
+            <span
+              class="hoverc"
+            >沪ICP备13002172号-3</span>
           </p>
           <p>
             沪ICP证：沪B2-20100043 | 违法不良信息举报邮箱：help@bilibili.com | 违法不良信息举报电话：4000233233转3 |
@@ -110,7 +115,31 @@
 </template>
 
 <script>
-export default {};
+import { setInterval } from "timers";
+import $ from "jquery";
+export default {
+  data() {
+    return {
+      timer: null
+    };
+  },
+  mounted() {
+    this.timer = setInterval(function() {
+      let imgone = $(".three1");
+      let imgtwo = $(".three2");
+      // imgone.css('opacity',0);
+      // imgtwo.css('opacity',1);
+      if (imgone.css("opacity")==0) {
+        imgone.css("opacity", 1);
+        imgtwo.css("opacity", 0);
+      } else {
+        imgone.css("opacity", 0);
+        imgtwo.css("opacity", 1);
+      }
+      // console.log(imgone.css('opacity'));
+    }, 2000);
+  }
+};
 </script>
 
 <style lang="less" scoped>
@@ -227,15 +256,32 @@ export default {};
           width: 100px;
           height: 40px;
           background: url("../../static/483.png") no-repeat;
-        }
+          overflow: hidden;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          .three2 {
+            opacity: 0;
+            transition: opacity 0.3s;
+          }
+          .three1 {
+            opacity: 1;
+            transition: opacity 0.3s;
+          }
+        }   
       }
       .right {
         float: left;
         text-align: left;
-        .hoverc{
-            &:hover{
-                color: #222;
-            }
+        .hoverc {
+          &:hover {
+            color: #222;
+          }
         }
         p {
           font: 12px Helvetica Neue, Helvetica, Arial, Microsoft Yahei,
@@ -252,18 +298,18 @@ export default {};
           line-height: 24px;
           margin-bottom: 5px;
           // overflow: hidden;
-          zoom:1;
-          &:after{
+          zoom: 1;
+          &:after {
             display: block;
             clear: both;
             content: "";
             visibility: hidden;
             height: 0;
           }
-          span{
-              float: left;
-              color: #99a2aa;
-              margin: 0 2px;
+          span {
+            float: left;
+            color: #99a2aa;
+            margin: 0 2px;
           }
           a {
             color: #99a2aa;

@@ -3,8 +3,8 @@
     <div class="navtg">
       <div class="left">
         <div class="topNav">
-          <div class="bgimg"></div>
-          <a class="name" href="//live.bilibili.com/" target="_blank">动画</a>
+          <div class="bgimg" :style="{backgroundPosition:animateText.position}"></div>
+          <a class="name" href="//live.bilibili.com/" target="_blank">{{animateText.text}}</a>
           <div class="topNum">
             <div class="bili-tab-item on">有新动态</div>
             <div class="bili-tab-item">最新投稿</div>
@@ -416,7 +416,7 @@
         </div>
       </div>
       <div class="right">
-        <ranking></ranking>
+        <ranking :list="animateText.list"></ranking>
       </div>
     </div>
   </div>
@@ -425,7 +425,18 @@
 <script>
 import ranking from "../ranking/ranking"
 export default {
-  components:{ranking}
+  data(){
+     return {
+       
+     }
+  },
+  components:{ranking},
+  props: {
+    animateText: {
+      type: Object,
+      defalut:{}
+    }
+  },
 };
 </script>
 

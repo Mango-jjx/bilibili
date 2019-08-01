@@ -23,10 +23,10 @@
         </div>
         <div class="bottomImg">
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av4352648" target="_blank">
               <div class="pic">
                 <img
-                  src="//i0.hdslb.com/bfs/archive/848f2e9757c8174b7f3b975544fed6bdcb590fa1.jpg@160w_100h.webp"
+                  src="//i2.hdslb.com/bfs/archive/01b8326af9396737244552a5b7100264f827c03c.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -34,7 +34,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/7044835.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -50,22 +50,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">【武林外传】片头惨遭动画化 神还原</p>
+              <p class="t">【国产动漫】90后的童年回忆杀</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>31.4万
+                  <i class="icon"></i>9.1万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>568
+                  <i class="icon"></i>3609
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av42115472" target="_blank">
               <div class="pic">
                 <img
-                  src="//i0.hdslb.com/bfs/archive/aa2e78c6de40fbc81910e4029adb3b82205c8df4.jpg@160w_100h.webp"
+                  src="//i1.hdslb.com/bfs/archive/2bf38626cb8254e3b558ff90fe83664c09079575.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -73,7 +73,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/73929978.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -89,22 +89,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">【唯美国风/精美竖屏】 华夏风韵❀洛水天依 - 方舟指令 - 牵丝戏</p>
+              <p class="t">【唯美国风动画】《春困》| 女孩在课堂上做了一个梦，她梦见了……</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>6073
+                  <i class="icon"></i>53.6万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>15
+                  <i class="icon"></i>5279
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av39490898" target="_blank">
               <div class="pic">
                 <img
-                  src="//i2.hdslb.com/bfs/archive/e31aa102db5890287e40482afa512dd52f498444.jpg@160w_100h.webp"
+                  src="//i1.hdslb.com/bfs/archive/facab961b080466d931d8bbc1e84e69424d5164c.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -128,22 +128,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">【家教/手书】FAMILY-致我最爱的家人们-【2018年泽田纲吉生贺】</p>
+              <p class="t">毕业动画短片《歌莉娅》PV</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>15.6万
+                  <i class="icon"></i>23.9万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>3287
+                  <i class="icon"></i>366
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av19558092" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/17019a5d737aed74b7a099e2f25e8a8ea22267e9.jpg@160w_100h.webp"
+                  src="//i0.hdslb.com/bfs/archive/e2819f95ad5f4274861a50433ead2d58dcaba01f.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -167,22 +167,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">如果金闪闪的声优是李云龙</p>
+              <p class="t">【恶搞】用白起的声线试试打开凹凸世界（瑞金）</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>8.6万
+                  <i class="icon"></i>3.7万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>624
+                  <i class="icon"></i>402
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av59985366" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/40d78153e5e3ac0777b377ee41f2905291461c9e.jpg@160w_100h.webp"
+                  src="//i0.hdslb.com/bfs/archive/8eef44d83411142c2ff4778639a4398de0c9bc35.png@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -190,7 +190,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104468078.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -206,7 +206,7 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">《奥尔加的奇妙冒险 铁屑之风》OP 已更新p2抽象之王时删op</p>
+              <p class="t">【少年歌行/无萧/狐狸精】原配VS狐狸精 你选择谁</p>
               <div class="num">
                 <span class="play">
                   <i class="icon"></i>8446
@@ -218,10 +218,10 @@
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av55511795" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/3dac7af4f7b1e385147f41fe5986cad2667609ce.jpg@160w_100h.webp"
+                  src="//i2.hdslb.com/bfs/archive/4a16522c92b5a2f847f3820517500bfea71dc8a7.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -229,7 +229,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/97057126.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -245,7 +245,7 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">《蟑螂娘》全集</p>
+              <p class="t">【全职法师骚话大全】每个人生命里都会有一段让痛彻心扉、声嘶力竭的经历。</p>
               <div class="num">
                 <span class="play">
                   <i class="icon"></i>1.9万
@@ -257,10 +257,10 @@
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av59748521" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/dd8eaafe3ff3a8eb0d7405e347d54c9d9ea5532b.jpg@160w_100h.webp"
+                  src="//i1.hdslb.com/bfs/archive/1c6a6156e476779ceca930ab18489b0f99c7b4ae.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -268,7 +268,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104079337.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -284,7 +284,7 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">【DC】【Batfamily】we are family 蝙蝠家群像MAD</p>
+              <p class="t">同为上三宗，为什么蓝电霸王龙家族混的最惨，唐三：不会投资我？</p>
               <div class="num">
                 <span class="play">
                   <i class="icon"></i>3.6万
@@ -296,10 +296,10 @@
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av43028290" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/e34c5abf85be2440c53cc2b5ae9f32635d08850f.jpg@160w_100h.webp"
+                  src="//i2.hdslb.com/bfs/archive/7bea0ee0841f22ca4746907bb2abe2519247228f.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -307,7 +307,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/75446384.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -323,22 +323,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">【SAO10周年纪念特番】两人之间的谈话cut</p>
+              <p class="t">喜羊羊与灰太狼之羊村守护者 最感人的片段 请备好纸巾食用</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>1189
+                  <i class="icon"></i>8.7万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>2
+                  <i class="icon"></i>254
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av15094226" target="_blank">
               <div class="pic">
                 <img
-                  src="//i1.hdslb.com/bfs/archive/a00fdf83ff8e01552d6fb8c14acca00cdce421ad.jpg@160w_100h.webp"
+                  src="//i0.hdslb.com/bfs/archive/8ff438dc39cfe419f74de6a5dff2b97cc651e66f.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -346,7 +346,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/24578681.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -362,22 +362,22 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">阿罗拉联盟16强赛，阿塞萝拉VS卡奇，耿鬼大战嘎啦嘎啦</p>
+              <p class="t">【月声配音社】 凹凸世界×半次元 铃声活动第二期</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>2792
+                  <i class="icon"></i>26.8万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>47
+                  <i class="icon"></i>2.8万
                 </span>
               </div>
             </a>
           </div>
           <div class="spread-module">
-            <a href="https://www.bilibili.com/video/av59890685" target="_blank">
+            <a href="/video/av59570715" target="_blank">
               <div class="pic">
                 <img
-                  src="//i0.hdslb.com/bfs/archive/73bc363d056129f72137da40befb71e85c39c43a.jpg@160w_100h.webp"
+                  src="//i0.hdslb.com/bfs/archive/edcfc4586ca340c922f2ae01eb1f68d049d3f1b2.jpg@160w_100h.webp"
                   width="160"
                   height="100"
                 />
@@ -385,7 +385,7 @@
                 <div class="cover-preview-module">
                   <div
                     class="cover"
-                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/104311054.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
+                    style="background-image: url('//i0.hdslb.com/bfs/videoshot/103779540.jpg@.webp'); background-position: 0px 0px; background-size: 1600px;"
                   ></div>
                   <div class="progress-bar">
                     <span style="width:0%"></span>
@@ -401,13 +401,13 @@
                 <span class="dur">20:01</span>
                 <div class="watch-later-trigger w-later"></div>
               </div>
-              <p class="t">终于来了，国语版崇皇时王变身</p>
+              <p class="t">过誉？真香？这部霸权预定的国产动画到底怎么样？【滑稽爱国创1期】</p>
               <div class="num">
                 <span class="play">
-                  <i class="icon"></i>13.0万
+                  <i class="icon"></i>14.9万
                 </span>
                 <span class="danmu">
-                  <i class="icon"></i>321
+                  <i class="icon"></i>1164
                 </span>
               </div>
             </a>
@@ -415,7 +415,7 @@
         </div>
       </div>
       <div class="right">
-        <ranking></ranking>
+        <ranking :list="list"></ranking>
       </div>
     </div>
   </div>
@@ -424,6 +424,21 @@
 <script>
 import ranking from "../ranking/ranking"
 export default {
+  data(){
+     return {
+       list:{
+         num1:"这部国漫被人疯狂奶爆？收获观众一致好评！制作内容令人疯狂分析！",
+         num2:"《哪吒之魔童降世》无剧透安利！是时候打破对国产动画的偏见了！封神宇宙预定！【国动荟萃】",
+         num3:"【2019小宇宙新星计划】《阿莉塔的睡前故事》",
+         num4:"中国的科幻时代即将到来？《三体》动画化与《流浪地球》之成功，必是星火燎原！  《灵笼》等科幻动画将主导建立中国动画文化？",
+         num5:"网友恨不得马上停播的七部国产动画，国漫风评被害的元凶！【卡密动漫#81】",
+         num6:"小时候看不懂，长大了才发现是神作！《超兽武装》真是满满的哲理！",
+         num7:"【大圣/哪吒】我本桀骜少年臣，不信鬼神不信人",
+         img:"//i2.hdslb.com/bfs/archive/e4dc12a7a464cb3b1ebf29ce39316aa539d00cf4.jpg@80w_50h.webp",
+         number:"综合评分：43.0万"
+       }
+     }
+  },
   components:{ranking}
 };
 </script>

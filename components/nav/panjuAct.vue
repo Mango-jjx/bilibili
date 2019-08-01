@@ -412,8 +412,12 @@
           <div class="adpos">
             <div class="block">
               <el-carousel height="268px" arrow="never">
-                <el-carousel-item v-for="item in 2" :key="item">
-                  <h3 class="small">{{ item }}</h3>
+                <el-carousel-item v-for="item in list" :key="item.index">
+                  <h3 class="small">
+                    <a>
+                      <img :src="item.src" alt />
+                    </a>
+                  </h3>
                 </el-carousel-item>
               </el-carousel>
             </div>
@@ -425,9 +429,25 @@
 </template>
 
 <script>
-import ranking from "../ranking/ranking"
 export default {
-  components:{ranking}
+  data() {
+    return {
+      list: [
+        {
+          src:
+            "//i0.hdslb.com/bfs/bangumi/5276e3fd9660ce0b0eecb8d772a63f64b6111e99.jpg@520w_536h.webp"
+        },
+        {
+          src:
+            "//i0.hdslb.com/bfs/bangumi/5edc7086e4635dfff63bfce1ccb0ca8faa6c870f.jpg@520w_536h.webp"
+        },
+        {
+          src:
+            "//i0.hdslb.com/bfs/bangumi/ad5d016d809ce163645b74b078c7c16e2639bb46.jpg@520w_536h.webp"
+        }
+      ]
+    };
+  }
 };
 </script>
 
@@ -504,7 +524,7 @@ export default {
         margin-left: 0;
         padding-right: 0px;
         color: #222;
-        &:hover{
+        &:hover {
           color: #00a1d6;
         }
       }
@@ -807,6 +827,15 @@ export default {
           opacity: 0.75;
           line-height: 150px;
           margin: 0;
+          a {
+            display: block;
+            height: 100%;
+            img {
+              height: 100%;
+              width: 100%;
+              display: block;
+            }
+          }
         }
 
         .el-carousel__item:nth-child(2n) {

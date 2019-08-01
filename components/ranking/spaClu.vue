@@ -2,15 +2,11 @@
   <div>
     <div class="navMain">
       <h3 class="numTop">排行</h3>
-      <div class="topNum">
-        <div class="bili-tab-item on">全部</div>
-        <div class="bili-tab-item">原创</div>
-      </div>
       <div class="select">
-        <span class="selected">三日</span>
+        <span class="selected">一日</span>
         <i class="icon"></i>
         <ul class="drop">
-          <li class="drop-item">三日</li>
+          <!-- <li class="drop-item">三日</li> -->
           <li class="drop-item">一周</li>
         </ul>
       </div>
@@ -18,42 +14,53 @@
     <div class="bottomPro">
       <div class="adpos">
         <ul class="rank-list">
-          <li class="rank-item highlight show-detail">
+          <li class="rank-item highlight">
             <i class="ri-num">1</i>
             <a href="#">
-              <div class="lazy-img">
-                <img :src="list.img" alt />
-                <div class="watch"></div>
-              </div>
-              <div class="rldetail">
-                <p class="ri-title">{{list.num1}}</p>
-                <p class="ri-point">{{list.number}}</p>
-              </div>
+              <p class="ri-title">周杰伦大战蔡徐坤，天下苦流量明星久矣</p>
             </a>
           </li>
           <li class="rank-item highlight">
             <i class="ri-num">2</i>
-            <a href="#">{{list.num2}}</a>
+            <a href="#">
+              <p class="ri-title">粉丝实力拖累，被周杰伦碾压的蔡徐坤真的好惨一男的</p>
+            </a>
           </li>
           <li class="rank-item highlight">
             <i class="ri-num">3</i>
-            <a href="#">{{list.num3}}</a>
+            <a href="#">
+              <p class="ri-title">不理解梁朝伟为什么要接漫威的辱华角色？</p>
+            </a>
           </li>
           <li class="rank-item">
             <i class="ri-num">4</i>
-            <a href="#">{{list.num4}}</a>
+            <a href="#">
+              <p class="ri-title">「统计结果」神楽めあbilibili一周年活动·番外篇：大家最喜欢的作品Top10</p>
+            </a>
           </li>
           <li class="rank-item">
             <i class="ri-num">5</i>
-            <a href="#">{{list.num5}}</a>
+            <a href="#">
+              <p class="ri-title">京都动画第1工作室纵火事件 7月22日报道汇总</p>
+            </a>
           </li>
           <li class="rank-item">
             <i class="ri-num">6</i>
-            <a href="#">{{list.num6}}</a>
+            <a href="#">
+              <p class="ri-title">34人死亡，画作全毁！日本民众悼念京阿尼火灾遇难者……</p>
+            </a>
           </li>
           <li class="rank-item">
             <i class="ri-num">7</i>
-            <a href="#">{{list.num7}}</a>
+            <a href="#">
+              <p class="ri-title">世界尽头通向何处？——解谜《企鹅公路》</p>
+            </a>
+          </li>
+          <li class="rank-item">
+            <i class="ri-num">8</i>
+            <a href="#">
+              <p class="ri-title">up主的相亲实录来了，up主是怎么被甩的，揭秘，揭秘！！！！！</p>
+            </a>
           </li>
         </ul>
       </div>
@@ -71,14 +78,7 @@
 </template>
 
 <script>
-export default {
-  props: {
-    list: {
-      type: Object,
-      defalut: {}
-    }
-  }
-};
+export default {};
 </script>
 
 <style scoped lang="less">
@@ -95,47 +95,6 @@ export default {
     float: left;
     font-size: 18px;
     font-weight: 400;
-  }
-  .topNum {
-    overflow: hidden;
-    float: left;
-    margin-left: 20px;
-    .bili-tab-item {
-      float: left;
-      position: relative;
-      height: 24px;
-      line-height: 20px;
-      margin-left: 12px;
-      cursor: pointer;
-      padding: 1px 0 2px;
-      border-bottom: 1px solid transparent;
-      transition: 0.2s;
-      transition-property: border, color;
-      &:first-child {
-        margin-left: 0;
-      }
-      &:before {
-        content: "";
-        display: none;
-        position: absolute;
-        left: 50%;
-        margin-left: -3px;
-        bottom: 0;
-        width: 0;
-        border-bottom: 3px solid #00a1d6;
-        border-top: 0;
-        border-left: 3px dashed transparent;
-        border-right: 3px dashed transparent;
-      }
-      &.on {
-        background-color: transparent;
-        border-color: #00a1d6;
-        color: #00a1d6;
-        &::before {
-          display: block;
-        }
-      }
-    }
   }
   .select {
     position: relative;
@@ -198,7 +157,7 @@ export default {
     width: 260px;
     // height: 248px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 26px;
     .rank-list {
       .rank-item {
         position: relative;
@@ -233,69 +192,30 @@ export default {
           margin-left: 25px;
           overflow: hidden;
           height: 18px;
+          cursor: pointer;
+          .ri-title{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 235px;
+            line-height: 18px;
+            vertical-align: top;
+            color: #222;
+            display: inline-block;
+            overflow: hidden;
+          }
+          &:hover{
+            .ri-title{
+              color: #00a1d6;
+            }
+          }
         }
         &:first-child {
           margin-top: 0;
-          a {
-            height: 50px;
-          }
         }
       }
       .highlight {
         i {
           background-color: #f25d8e;
-        }
-      }
-      .show-detail {
-        .lazy-img {
-          float: left;
-          margin-right: 5px;
-          position: relative;
-          border-radius: 4px;
-          overflow: hidden;
-          width: 80px;
-          height: 50px;
-          img {
-            height: 100%;
-            width: 100%;
-          }
-          .watch {
-            background: url("../../static/clack.png") no-repeat;
-            position: absolute;
-            bottom: 5px;
-            right: 5px;
-            width: 22px;
-            height: 22px;
-            display: none;
-          }
-        }
-        .rldetail {
-          float: left;
-          .ri-title {
-            height: 36px;
-            line-height: 18px;
-            margin-top: -3px;
-            width: 150px;
-            padding: 0;
-            color: #222;
-            overflow: hidden;
-          }
-          .ri-point {
-            display: block;
-            line-height: 12px;
-            color: #99a2aa;
-            height: 12px;
-            margin-top: 5px;
-            overflow: hidden;
-          }
-        }
-        &:hover {
-          .ri-title {
-            color: #00a1d6;
-          }
-          .watch {
-            display: block;
-          }
         }
       }
     }
@@ -321,7 +241,7 @@ export default {
         margin: -2px 0 0 5px;
         vertical-align: middle;
       }
-      &:hover {
+      &:hover{
         background-color: #ccd0d7;
         border-color: #ccd0d7;
       }

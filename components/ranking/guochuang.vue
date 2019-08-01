@@ -64,8 +64,12 @@
         <div class="adpos">
           <div class="block">
             <el-carousel height="90px" arrow="never">
-              <el-carousel-item v-for="item in 2" :key="item">
-                <h3 class="small">{{ item }}</h3>
+              <el-carousel-item v-for="item in list" :key="item.index">
+                <h3 class="small">
+                  <a>
+                    <img :src="item.src" alt />
+                  </a>
+                </h3>
               </el-carousel-item>
             </el-carousel>
           </div>
@@ -76,7 +80,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return {
+      list: [
+        {
+          src:
+            "//i0.hdslb.com/bfs/bangumi/c6092baece11ad0ee012f55f5344218958038b6e.jpg@520w_180h.webp"
+        },
+        {
+          src:
+            "//i0.hdslb.com/bfs/bangumi/ab7a3e044e4fb8df6060d2da994be036cff6f2f9.jpg@520w_180h.webp"
+        }
+      ]
+    }
+  }
+};
 </script>
 
 <style scoped lang="less">
@@ -120,7 +139,7 @@ export default {};
       vertical-align: middle;
       width: 12px;
       height: 6px;
-      margin-left: 5px;
+      margin-left: 0.64px;
       margin-top: -1px;
     }
     .drop {
@@ -245,6 +264,10 @@ export default {};
         margin: -2px 0 0 5px;
         vertical-align: middle;
       }
+      &:hover{
+        background-color: #ccd0d7;
+        border-color: #ccd0d7;
+      }
     }
   }
   .swiper-list {
@@ -261,6 +284,15 @@ export default {};
         opacity: 0.75;
         line-height: 150px;
         margin: 0;
+        a {
+          display: block;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            display: block;
+          }
+        }
       }
 
       .el-carousel__item:nth-child(2n) {

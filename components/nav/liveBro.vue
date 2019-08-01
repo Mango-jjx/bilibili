@@ -258,18 +258,22 @@
           <div class="adpos">
             <div class="block">
               <el-carousel height="248px" arrow="never">
-                <el-carousel-item v-for="item in 2" :key="item">
-                  <h3 class="small">{{ item }}</h3>
+                <el-carousel-item v-for="item in list" :key="item.index">
+                  <h3 class="small">
+                    <a>
+                      <img :src="item.src" alt />
+                    </a>
+                  </h3>
                 </el-carousel-item>
               </el-carousel>
             </div>
           </div>
           <div class="anchor">
             <a href="//h.bilibili.com" target="_blank" class="picc left">
-               <img src="//s1.hdslb.com/bfs/static/jinkela/home/asserts/wh.png" alt="">
+              <img src="//s1.hdslb.com/bfs/static/jinkela/home/asserts/wh.png" alt />
             </a>
             <a href="//vc.bilibili.com" target="_blank" class="picc right">
-               <img src="//s1.hdslb.com/bfs/static/jinkela/home/asserts/sp.png" alt="">
+              <img src="//s1.hdslb.com/bfs/static/jinkela/home/asserts/sp.png" alt />
             </a>
           </div>
         </div>
@@ -279,7 +283,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      list: [
+        {
+          src:
+            "https://i0.hdslb.com/bfs/live/770f3fb56905126f62197656feea288bbbd9fd81.jpg@260w_248h.webp"
+        },
+        {
+          src:
+            "https://i0.hdslb.com/bfs/live/cb1ed2adb1326df17f6712f1ceca13b741da9745.jpg@260w_248h.webp"
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style lang="less" scoped>
@@ -597,6 +616,15 @@ export default {};
           opacity: 0.75;
           line-height: 150px;
           margin: 0;
+          a {
+            display: block;
+            height: 100%;
+            img {
+              height: 100%;
+              width: 100%;
+              display: block;
+            }
+          }
         }
 
         .el-carousel__item:nth-child(2n) {
@@ -614,10 +642,10 @@ export default {};
           }
         }
       }
-      .anchor{
+      .anchor {
         width: 260px;
         height: 63px;
-        a{
+        a {
           display: block;
           width: 50%;
           margin-top: 20px;
