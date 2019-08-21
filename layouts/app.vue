@@ -8,8 +8,14 @@
 
 <script>
 import headerLayer from "../components/commit/header";
-import footerLayer from "../components/commit/footer"
+import footerLayer from "../components/commit/footer";
+// import demo from "../components/commit/demo";
 export default {
+    data(){
+      return {
+          
+      }
+    },
      components:{
          headerLayer,
          footerLayer

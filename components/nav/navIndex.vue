@@ -280,8 +280,8 @@ export default {
         transition: none;
       }
       /deep/ .is_active{
-        background-image: url("../../static/icons.png");
-        background-position: -855px -727px;
+        // background-image: url("../../static/icons.png");
+        // background-position: -855px -727px;
       }
     }
     .more {
